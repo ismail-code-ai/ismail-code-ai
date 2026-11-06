@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 290" width="920" height="290" role="img" aria-label="NEXA: Private messaging experiment">
+<defs>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#b7ae9e" stroke-opacity=".09"/></pattern>
+<pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#e8dbca" opacity=".22"/><circle cx="7" cy="7" r=".6" fill="#f68b35" opacity=".16"/></pattern>
+<pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V12" stroke="#ed7a32" stroke-width="2" opacity=".55"/></pattern>
+</defs><rect width="920" height="290" rx="7" fill="#101115"/><rect width="920" height="290" rx="7" fill="url(#grid)"/><rect width="920" height="290" rx="7" fill="none" stroke="#b19bfa" stroke-width="2"/>
+<rect x="16" y="15" width="8" height="34" fill="#b19bfa"/><text x="43" y="44" font-family="monospace" font-size="17" letter-spacing="2" fill="#b19bfa">MISSION / 01</text>
+<text x="40" y="126" font-family="Arial Black,Impact,sans-serif" font-weight="900" font-size="66" fill="#f0e7db">NEXA</text>
+<path d="M43 144h420" stroke="#b19bfa" stroke-opacity=".8" stroke-width="2"/>
+<text x="43" y="186" font-size="23" font-family="monospace" fill="#d5cabc">Private messaging experiment</text>
+<text x="43" y="235" font-size="17" font-family="monospace" fill="#aaa093">PRODUCT / MESSAGING / INTERFACE</text>
+<rect x="40" y="254" width="300" height="3" fill="url(#hatch)"/><g transform="translate(650 24) rotate(12 150 130)"><rect x="48" y="0" width="214" height="252" rx="23" fill="#15151b" stroke="#a592ee" stroke-width="3"/><rect x="59" y="12" width="192" height="227" rx="16" fill="#2c2054"/><rect x="120" y="10" width="75" height="12" rx="6" fill="#15151b"/><path d="M100 90h112a23 23 0 0 1 23 23v47a23 23 0 0 1-23 23h-46l-36 25v-25h-30a23 23 0 0 1-23-23v-47a23 23 0 0 1 23-23" fill="#8b62df"/><circle cx="121" cy="139" r="9" fill="#201532"/><circle cx="156" cy="139" r="9" fill="#201532"/><circle cx="191" cy="139" r="9" fill="#201532"/></g>
+<rect x="870" y="241" width="34" height="34" rx="3" fill="none" stroke="#b19bfa"/><path d="M879 266l17-17m-13 0h13v13" stroke="#b19bfa" stroke-width="2" fill="none"/>
+</svg>

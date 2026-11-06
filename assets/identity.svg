@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="570" viewBox="0 0 1120 570" role="img" aria-label="Ismail Code AI classified identity. Creative developer based in Morocco.">
+<defs>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#b7ae9e" stroke-opacity=".09"/></pattern>
+<pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#e8dbca" opacity=".22"/><circle cx="7" cy="7" r=".6" fill="#f68b35" opacity=".16"/></pattern>
+<pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V12" stroke="#ed7a32" stroke-width="2" opacity=".55"/></pattern>
+</defs>
+<rect width="1120" height="570" fill="#0c0d10"/><rect width="1120" height="570" fill="url(#grid)"/><rect width="1120" height="570" fill="url(#grain)" opacity=".55"/>
+<rect x="11" y="11" width="1098" height="548" rx="3" fill="none" stroke="#8e8377" stroke-opacity=".68"/><path d="M22 73H1098" stroke="#8e8377" stroke-opacity=".54"/>
+<path d="M22 22h45M22 22v29M1098 22h-45M1098 22v29M22 548h45M22 548v-29M1098 548h-45M1098 548v-29" stroke="#df813d" stroke-width="3"/>
+<circle cx="52" cy="45" r="12" fill="none" stroke="#e9e0d1" stroke-width="2"/><path d="M45 45h14M52 38v14" stroke="#e9e0d1"/><text x="78" y="51" font-family="monospace" font-size="16" letter-spacing="1" fill="#e8e2d6">GITHUB PROFILE / IDENTITY SYSTEM</text>
+<text x="1083" y="50" text-anchor="end" font-family="monospace" font-size="14" letter-spacing="2" fill="#db8b55">FILE NO. 001 / MA</text>
+<g transform="translate(660 82)">
+<circle cx="238" cy="184" r="172" fill="#dd742e" opacity=".89"/><circle cx="238" cy="184" r="191" fill="none" stroke="#e7a279" opacity=".35"/>
+<circle cx="238" cy="184" r="146" fill="none" stroke="#0d0e10" stroke-opacity=".25" stroke-dasharray="4 9"/>
+<path d="M-3 392V292h54v-89h18v89h49v-144h20v-34h26v34h14v144h33V194h31v98h28V159h21v-38h16v38h18v133h30V231h24v61h40v-94h22v94h40V240h29v52h49v100Z" fill="#17191b" opacity=".88"/>
+<path d="M139 150h38M159 114v-37M162 77h-6M142 310V170M271 310V163" stroke="#f3d3b3" opacity=".25" stroke-width="2"/>
+<path d="M145 182h28m-28 24h28m-28 24h28m-28 24h28m108-65h21m-21 24h21m-21 24h21" stroke="#edb27e" opacity=".4"/>
+<path d="M60 392c40-75 74-105 138-121 19-7 24-39 24-56-16-19-26-45-23-82 2-47 40-76 79-73 33 4 62 25 65 69 3 31-6 63-22 81-2 26-2 43 32 62 43 21 85 47 112 120Z" fill="#08090b"/>
+<path d="M218 111c11-44 58-59 96-31M249 104c23-27 53-18 67-4M230 286c47 24 83 25 111-1" fill="none" stroke="#807b78" stroke-width="7" opacity=".34"/>
+<path d="M60 392c41-72 71-104 132-117m152 4c43 19 84 47 122 113" fill="none" stroke="#b0a49b" stroke-opacity=".27" stroke-width="7"/>
+</g>
+<text x="57" y="155" font-family="Georgia,serif" font-weight="bold" font-size="26" letter-spacing="6" fill="#db8b55">SUBJECT / 001</text>
+<text x="51" y="272" font-family="Impact,Arial Black,sans-serif" font-size="119" font-weight="900" letter-spacing="-3" fill="#eee6d8">ISMAIL</text>
+<path d="M58 303h414" stroke="#ed8438" stroke-width="3"/>
+<text x="59" y="360" font-family="monospace" font-size="53" font-weight="bold" letter-spacing="5" fill="#ed8438">[ CODE-AI ]</text>
+<g transform="translate(407 110) rotate(-10)"><rect width="225" height="51" fill="#0e0f12" stroke="#e7783f" stroke-width="3"/><text x="112" y="33" font-size="25" font-family="monospace" font-weight="bold" fill="#e7783f" text-anchor="middle">CLASSIFIED</text></g>
+<text x="60" y="408" font-family="monospace" font-size="19" fill="#ede6dc">DEVELOPER  /  CREATIVE BUILDER</text>
+<text x="60" y="438" font-family="monospace" font-size="18" fill="#bbb4aa">DIGITAL STORYTELLING  /  MOROCCO</text>
+<path d="M58 467H622" stroke="#928b80" opacity=".5"/>
+<circle cx="73" cy="503" r="6" fill="#ec823b"/><text x="91" y="509" font-family="monospace" font-size="18" fill="#e9ddce">STATUS: BUILDING</text>
+<text x="545" y="509" text-anchor="end" font-family="monospace" font-size="15" fill="#a7a093">GITHUB / ismail-code-ai</text>
+<path d="M650 525H1087" stroke="#e7783f" stroke-opacity=".7"/><text x="1084" y="546" text-anchor="end" font-family="monospace" font-size="12" letter-spacing="2" fill="#b0a89a">ORIGINAL SYSTEM ARTWORK • 2026</text>
+</svg>
