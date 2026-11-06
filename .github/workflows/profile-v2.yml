@@ -1,0 +1,63 @@
+name: Classified Identity — Validate and Sync Activity
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "assets/v2/**"
+      - "scripts/**"
+      - ".github/workflows/profile-v2.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "21 5 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Static profile validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run source-level activity tests
+        run: node scripts/activity.mjs --test
+      - name: Validate linked assets and README
+        run: node scripts/validate-profile.mjs
+
+  sync:
+    name: Daily GitHub activity refresh
+    needs: validate
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: profile-activity-sync
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Request contribution data from GitHub GraphQL
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/activity.mjs --sync
+      - name: Commit changes only if the calendar changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/v2/activity-dark.svg assets/v2/activity-light.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(profile): refresh contribution artwork [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "Activity artwork already up to date."
+          fi
