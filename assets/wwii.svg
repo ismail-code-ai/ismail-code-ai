@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 290" width="920" height="290" role="img" aria-label="WWII: Interactive history documentary">
+<defs>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#b7ae9e" stroke-opacity=".09"/></pattern>
+<pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".6" fill="#e8dbca" opacity=".22"/><circle cx="7" cy="7" r=".6" fill="#f68b35" opacity=".16"/></pattern>
+<pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V12" stroke="#ed7a32" stroke-width="2" opacity=".55"/></pattern>
+</defs><rect width="920" height="290" rx="7" fill="#101115"/><rect width="920" height="290" rx="7" fill="url(#grid)"/><rect width="920" height="290" rx="7" fill="none" stroke="#ed8b47" stroke-width="2"/>
+<rect x="16" y="15" width="8" height="34" fill="#ed8b47"/><text x="43" y="44" font-family="monospace" font-size="17" letter-spacing="2" fill="#ed8b47">MISSION / 02</text>
+<text x="40" y="126" font-family="Arial Black,Impact,sans-serif" font-weight="900" font-size="66" fill="#f0e7db">WWII</text>
+<path d="M43 144h420" stroke="#ed8b47" stroke-opacity=".8" stroke-width="2"/>
+<text x="43" y="186" font-size="23" font-family="monospace" fill="#d5cabc">Interactive history documentary</text>
+<text x="43" y="235" font-size="17" font-family="monospace" fill="#aaa093">WEB / HISTORY / INTERACTIVE</text>
+<rect x="40" y="254" width="300" height="3" fill="url(#hatch)"/><g transform="translate(600 15)"><circle cx="185" cy="118" r="110" fill="#a89783" opacity=".17"/><path d="M24 248V138h55v-67h22v67h46V84h23V40h33v44h23v54h42V91h24v47h57V248" fill="#5d5b58"/><path d="M39 151h28m-28 22h28m-28 22h28m113-97h17m-17 24h17m-17 24h17m92 5h23m-23 23h23" stroke="#c0ad91" stroke-opacity=".6" stroke-width="6"/><path d="M0 247h385" stroke="#a19b95" stroke-width="3"/><path d="M10 50l65 0-31 9 31 9-65 0M105 23l69 0-30 7 30 7-69 0M262 44l66 0-31 8 31 8-66 0" fill="#b5b0a8"/></g>
+<rect x="870" y="241" width="34" height="34" rx="3" fill="none" stroke="#ed8b47"/><path d="M879 266l17-17m-13 0h13v13" stroke="#ed8b47" stroke-width="2" fill="none"/>
+</svg>
